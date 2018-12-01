@@ -1,0 +1,41 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 01.12.2018 15:39:07
+
+newmtl chrome
+	Ns 81.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3624 0.3624 0.3624
+	Ks 0.3000 0.3000 0.3000
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__1_Raytrace.tga
+
+newmtl handle
+	Ns 40.7647
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.1341 0.1341 0.1341
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__2_Raytrace.tga
+
+newmtl mirror
+	Ns 90.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1208 0.1208 0.1208
+	Ks 0.4500 0.4500 0.4500
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__3_Raytrace.tga
