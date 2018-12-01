@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{9B35E0D5-885B-8D4D-EB9F-F78824716075}</ProjectGuid>
+    <ProjectGuid>{0722D9CF-E6AF-3E41-5AF0-DBC6267F87BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -87,16 +87,16 @@
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_LiveWindow.cs" />
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_PostProcessBuild.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -345,7 +345,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/DELL/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -392,7 +392,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7E11D40C-C071-A1FA-7CA3-520B0AF3BD66}</Project>
+      <Project>{889680BA-9393-1B75-AC7E-3837F371EE96}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

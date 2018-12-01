@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{7E11D40C-C071-A1FA-7CA3-520B0AF3BD66}</ProjectGuid>
+    <ProjectGuid>{889680BA-9393-1B75-AC7E-3837F371EE96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -216,6 +216,15 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy_In.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_In.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_Out.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer.cs" />
+    <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer_In.cs" />
+    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
+    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -230,16 +239,16 @@
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -440,7 +449,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/DELL/Documents/Dr Reality Training/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/DELL/Documents/Aggie Invent Dr-Reality/Dr-Reality-Training/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/DELL/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

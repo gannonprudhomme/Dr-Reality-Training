@@ -13,6 +13,7 @@ namespace Valve.VR.InteractionSystem.Sample
 	[RequireComponent( typeof( Interactable ) )]
 	public class InteractableExample : MonoBehaviour
 	{
+        public float hello;
 		private TextMesh textMesh;
 		private Vector3 oldPosition;
 		private Quaternion oldRotation;
