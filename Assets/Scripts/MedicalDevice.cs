@@ -28,7 +28,6 @@ public class MedicalDevice : MonoBehaviour {
     //-------------------------------------------------
     private void OnHandHoverBegin(ValveVR.Hand hand)
     {
-        Debug.Log("hovering hand");
         //textMesh.text = "Hovering hand: " + hand.name;
     }
 
@@ -38,7 +37,6 @@ public class MedicalDevice : MonoBehaviour {
     //-------------------------------------------------
     private void OnHandHoverEnd(ValveVR.Hand hand)
     {
-        Debug.Log("Done hovering hand");
         //ValveVR.textMesh.text = "No Hand Hovering";
     }
 
@@ -84,7 +82,6 @@ public class MedicalDevice : MonoBehaviour {
     //-------------------------------------------------
     private void OnAttachedToHand(ValveVR.Hand hand)
     {
-        Debug.Log("Attached to hand: " + hand.name);
     }
 
 
@@ -93,7 +90,7 @@ public class MedicalDevice : MonoBehaviour {
     //-------------------------------------------------
     private void OnDetachedFromHand(ValveVR.Hand hand)
     {
-        Debug.Log("Detached from hand: " + hand.name);
+
     }
 
 
@@ -102,7 +99,6 @@ public class MedicalDevice : MonoBehaviour {
     //-------------------------------------------------
     private void HandAttachedUpdate(ValveVR.Hand hand)
     {
-        Debug.Log("Hand Attached Update");
         //textMesh.text = "Attached to hand: " + hand.name + "\nAttached time: " + (Time.time - attachTime).ToString("F2");
     }
 
