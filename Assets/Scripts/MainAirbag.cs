@@ -8,6 +8,7 @@ using ValveVR = Valve.VR.InteractionSystem;
 public class MainAirbag : MonoBehaviour {
     public MedicalDevice goal;
     public float MAX_DIFF;
+    public TextMesh textMesh;
 
 	// Use this for initialization
 	void Start () {
@@ -32,9 +33,12 @@ public class MainAirbag : MonoBehaviour {
             {
                 if (Mathf.Abs(transform.position.z - goal_z) < MAX_DIFF)
                 {
-                    Debug.Log("ALIGNED, BITCH");
+                    textMesh.text = "Good!";
                 }
             }
+        } else
+        {
+            textMesh.text = "";
         }
     }
 }
