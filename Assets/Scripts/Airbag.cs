@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Airbag : MonoBehaviour {
 
 	// Use this for initialization
@@ -14,4 +15,3 @@ public class Airbag : MonoBehaviour {
 		
 	}
 }
-    
